@@ -1,6 +1,7 @@
 const autos = ['BMW', 'Mercedes', 'Volvo'];
 console.log(autos);
 
+
 console.log(autos[0]);
 console.log(autos[2]);
 
