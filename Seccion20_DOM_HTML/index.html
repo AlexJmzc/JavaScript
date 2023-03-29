@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Formulario con JavaScript</title>
+</head>
+<body>
+    <!--<h1 id="cabecero">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo">Saludos</p>
+    <p id="parrafo2">Hola</p>
+    <script>
+        let parrafos = document.getElementsByTagName('p');
+        for (let i = 0; i < parrafos.length; i++) {
+            console.log(parrafos[i].innerHTML);
+        }
+
+        let cabecero = document.getElementById('cabecero');
+        console.log(`${cabecero.innerHTML}`);
+        let parrafo = document.getElementById('parrafo');
+        console.log(parrafo);
+        parrafo.innerHTML = 'Nuevo Parrafo';
+        console.log('Saludos desde JavaScript');
+    </script>-->
+
+    <form id='formulario'>
+        Nombre: <input type="text" name="nombre" value="Alex"/>
+        <br>
+        Apellido: <input type="text" name="apellido" value="Jiménez">
+        <br>
+    </form>
+    <button onclick="mostrarValores()">Mostrar</button>
+
+    <div id="valores"></div>
+
+    <script>
+        function mostrarValores(){
+            let formulario = document.forms['formulario'];
+            let texto = '';
+            for(let elemento of formulario) {
+                texto += elemento.value;
+            }
+
+            let valores = document.getElementById("valores");
+            valores.innerHTML = texto;
+            console.log(texto);
+        }
+    </script>
+</body>
+</html>
