@@ -1,5 +1,5 @@
 
-![Logo]([https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png](https://i0.wp.com/www.jeremysmola.com/wp-content/uploads/2019/04/cropped-logo-javascript-logo-png-transparent-1.png?ssl=1)
+![Logo](https://i0.wp.com/www.jeremysmola.com/wp-content/uploads/2019/04/cropped-logo-javascript-logo-png-transparent-1.png?ssl=1)
 
 
 # JavaScript Course / Curso
